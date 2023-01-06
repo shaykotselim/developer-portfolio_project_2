@@ -1,0 +1,250 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+        /* header & navigation styles */
+        .header{
+
+            background-color: #FFF8F3;
+            background-image: url('../images/header_bg.png'),url('../images/developer.png');
+            background-repeat: no-repeat;
+            background-position: bottom right, left;
+        }
+.textPrimary{
+    color: #FD6E0A;
+}
+
+.navTitle{
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 51px 226px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+}
+
+nav li{
+  list-style: none;
+  margin-left: 51px;
+}
+
+.btnPrimary{
+    color:#FFFFFF;    
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: 700;
+}
+        /* Banner Styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin:0 226px;
+}
+.bannerTitle{
+    font-size: 85px;
+    font-weight: 700;    
+}
+.bannerSubTitle{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.bnnerDescription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+    /* Main Section styles */
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+
+    }
+
+    .about{
+        /* margin: 100px 218px; */
+        background-color: #FFF8F3;
+        border-radius: 10px;
+        margin-top: 131px;
+        padding: 131px 150px;
+        
+    }
+
+    .section-title{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .section-description{
+        color:  #757575;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .aboutInfoContainer{
+        display: flex;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .info{
+       
+        margin-left:  50px;
+    }
+    .infoTitle{
+        color: #757575;
+        font-size: 20px;
+    }
+    .infoDescription{
+        color: #474747;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+            /* What i do Styles */
+
+    .whatIDo{
+        margin: 0 auto;
+        margin-top: 31px;
+        padding: 131px 150px;
+        text-align: center;
+    }
+    .whatTitle{
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+    .whatDescription{
+        color: #757575;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 30px ;
+    
+    }
+    /* Skills styles */
+    .skillsContainear{
+        display: flex;
+
+    }
+    .skills{
+        height: 267px;
+        width: 377px;
+        padding: 30px;
+        margin-left: 24px;
+        background: white;
+        box-shadow:2px 1px 10px ;
+        border-radius: 5px;
+    }
+    .skillsTitle{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 30px 0;
+       
+    }
+    .skillsDescription{
+        font-size: 16px;
+        
+    }
+
+    /* Style of summary */
+
+    .summayTitle{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        margin: 100px 0;
+    }
+    .subsummary{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .summay-container{
+        display: flex;
+        gap: 24px;
+        margin-left: 20px;
+        padding: 30px;
+      
+    }
+    .experience{
+        border-bottom: 1px solid grey;
+    }
+    .programTitle{
+        margin: 30px 0;
+    }
+    .uniTitle{
+        font-size: 20px;
+        font-weight: 600;
+        color: #474747;
+    }
+    .uniDescription{
+        font-size: 18px;
+        font-weight: 400;
+        color: #757575;
+        margin: 20px 0;
+    
+    }
+    .btnPrimary2{
+        margin-left: 500px;
+        color:#FFFFFF;    
+        background-color: #FD6E0A;
+        border-radius: 5px;
+        border: 0;
+        padding: 18px 36px;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+
+    /* footer styles */
+    .footerContainer{
+       
+        height: 780px;
+        background-color:  #FFF8F3;
+    }
+    .footersubcon{
+        display: flex;
+        gap: 100px;
+        margin: 51px 261px;
+        padding-top: 151px;
+        text-align: left;
+    }
+    .footerTitle{
+        font-size: 30px;
+        font-weight:600;
+    }
+    .footerDes{
+        font-size: 16px;
+        font-weight: 400;
+        color:#474747;
+        margin: 20px 0;
+    }
+    .inputField{
+        border: none;
+        height: 64px;
+        width: 461px;
+        margin: 28px 0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+.inputArea{
+    border: none;
+    border-radius: 5px;
+    width: 461px;
+    height: 180px;
+    padding: 10px;
+}
